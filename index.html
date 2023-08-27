@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+* {
+    padding: 0px;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #000;
+    font-size: 0.9rem;
+}
+
+.container {
+    background-color: hsl(212, 45%, 89%);
+    width: 90%;
+    margin: 15px auto;
+    padding: 80px 20px;
+}
+
+.container1 {
+    border-radius: 16px;
+    padding: 15px;    
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+}
+
+.center {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    padding: 10px;
+}
+
+img {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+#paragraph1 {
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);    
+}
+
+
+#paragraph2 {
+    text-align: center;
+    color:  hsl(220, 15%, 55%);
+}
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+           <img class="center" src="images/image-qr-code.png" alt="QR-CODE"> 
+                <br><br>
+           <p id="paragraph1">Improve your front-end<br>skills by building projects</p>
+           <br>
+           <p id="paragraph2">Scan the QR code to visit Frontend<br>Mentor and take your coding skills to<br>the next level</p>
+           <br><br>
+        </div>
+    </div>
+</body>
+</html>
